@@ -1,0 +1,66 @@
+.font-limelight {
+  font-family: 'Limelight', cursive;
+}
+.font-lobster {
+  font-family: 'Lobster', cursive;
+}
+.font-mate {
+  font-family: 'Mate SC', serif;
+}
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 100vh;
+}
+
+.bg, .bg-pattern {
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-pattern {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  color: #ffffff;
+  font-size: 20vw;
+  text-shadow: 10px 10px 0 #000000;
+}
+
+./*content {
+  color: #000000;
+  font-size: 20vw;
+  text-shadow: 10px 10px 0px #ffffff;
+}*/
+
+.content span {
+  cursor: pointer;
+  display: inline-block;
+  transform-origin: 65% 75%;
+  transition: transform .5s, filter .5s ease-out;
+}
+.content span:hover {
+  transform: scale(1.2) rotate(10deg) translateX(10%);
+}
+#canvas {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
